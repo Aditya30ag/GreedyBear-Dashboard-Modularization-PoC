@@ -66,6 +66,9 @@ GSoC 2026 acceptance criteria PoC for the project [Greedybear: Dashboard Modular
 4.  **Dynamic Assembly (Engine)**
     Located in `src/components/dashboard/DynamicDashboard.tsx`. Maps JSON to CSS Grid layouts.
 
+## Deployed Link
+https://greedy-bear-dashboard-modularizatio.vercel.app/
+
 ## Relevance to GSoC 2026
 
 This PoC directly tackles the core objectives established in my GSoC proposal for Greedybear. Currently, the GreedyBear dashboard is hard-coded, significantly slowing down maintainers who wish to inject custom visualizations. By adopting this configuration-driven architecture, the barrier to adding new intelligence dashboards drops significantly. Developers only need to write a simple React widget once, register it, and administrators can arrange it infinitely via the UI.
